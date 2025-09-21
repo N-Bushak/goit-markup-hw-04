@@ -151,6 +151,11 @@ header {
 
 .solutions {
   background-color: #2e2f42;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1440рх;
   padding: 188px 0;
 }
 
@@ -355,4 +360,8 @@ margin-bottom: 8px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.footer-icons .team-icons  {
+  fill: white;
 }
