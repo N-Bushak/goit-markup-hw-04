@@ -434,7 +434,7 @@ margin-bottom: 8px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin-right: 120px
+  margin-right: 120px;
 }
 
 .footer-logo-container, .footer-icons-container {
@@ -442,7 +442,7 @@ margin-bottom: 8px;
 }
 
 .footer-logo {
-  display: inline-block;
+  display:inline-block;
   margin-bottom: 16px;
 }
 
@@ -457,12 +457,10 @@ margin-bottom: 8px;
   margin-bottom: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* color: #f4f4fd; */
-  color: #FFFFFF;
+  color: #f4f4fd; 
 }
 
-.social {
-
+.footer-text .social {
   font-weight: 500;
   margin-bottom: 23px;
   color: #FFFFFF;
@@ -472,10 +470,6 @@ margin-bottom: 8px;
   display: flex;
   justify-content: center;
   gap: 16px;
-}
-
-.footer-icons-item {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icons {
