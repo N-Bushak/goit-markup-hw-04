@@ -434,13 +434,15 @@ margin-bottom: 8px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+}
+
+.footer-logo-container {
   margin-right: 120px;
 }
 
-.footer-logo-container, 
-.footer-icons-container {
+/* .footer-icons-container {
   margin: 0;
-}
+} */
 
 .footer-logo {
   display:inline-block;
@@ -471,6 +473,12 @@ margin-bottom: 8px;
   display: flex;
   justify-content: center;
   gap: 16px;
+}
+
+.footer-icons-item {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
 }
 
 .footer-icons {
